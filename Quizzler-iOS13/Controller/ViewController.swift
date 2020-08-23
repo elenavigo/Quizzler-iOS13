@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        progressBar.transform = CGAffineTransform(scaleX: 1, y: 1)
         updateUI()
     }
 
